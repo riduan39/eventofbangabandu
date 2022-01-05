@@ -1,5 +1,6 @@
 import 'dart:async';
 
+
 import 'package:eventofbangabandu/home.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
@@ -35,8 +36,17 @@ class _splashState extends State<splash> {
       body: Center(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
-          children: [
-            Text("Welcome to Event of Bangabandu",style: TextStyle(fontSize: 20,fontWeight: FontWeight.bold,color: Colors.white),),
+          children: const [
+            Text(
+              "Welcome to Events of Bangabandu",
+              style: TextStyle(
+                  fontSize: 20,
+                  fontWeight: FontWeight.bold,
+                  color: Colors.white),
+            ),
+            SizedBox(
+              height: 20,
+            ),
             CircularProgressIndicator(
               color: Colors.white,
             ),

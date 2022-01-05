@@ -4,8 +4,16 @@ import 'package:eventofbangabandu/pages/page3.dart';
 import 'package:eventofbangabandu/pages/page4.dart';
 import 'package:eventofbangabandu/pages/page5.dart';
 import 'package:eventofbangabandu/pages/page6.dart';
+import 'package:eventofbangabandu/pages/page7.dart';
+import 'package:eventofbangabandu/pages/page8.dart';
+import 'package:eventofbangabandu/pages/page9.dart';
+import 'package:eventofbangabandu/pages/page10.dart';
+import 'package:eventofbangabandu/pages/page11.dart';
+import 'package:eventofbangabandu/pages/page12.dart';
+import 'package:eventofbangabandu/pages/page13.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+
 class Home extends StatelessWidget {
   const Home({Key? key}) : super(key: key);
 
@@ -14,10 +22,11 @@ class Home extends StatelessWidget {
     return SafeArea(
         child: Scaffold(
       appBar: AppBar(
-        title: Text("Event Of Bangabandu"),
+        title: Text("Short Events Of Bangabandu"),
         centerTitle: true,
+        backgroundColor: Colors.lime,
       ),
-      backgroundColor: Colors.white,
+      backgroundColor: Colors.tealAccent,
       body: SingleChildScrollView(
         child: Center(
           child: Column(
@@ -83,31 +92,73 @@ class Home extends StatelessWidget {
                 child: Text("Event 6"),
               ),
               TextButton(
-                onPressed: () {},
+                onPressed: () {
+                  Navigator.push(
+                      context,
+                      MaterialPageRoute(
+                        builder: (context) => page7(),
+                      ));
+                },
                 child: Text("Event 7"),
               ),
               TextButton(
-                onPressed: () {},
+                onPressed: () {
+                  Navigator.push(
+                      context,
+                      MaterialPageRoute(
+                        builder: (context) => page8(),
+                      ));
+                },
                 child: Text("Event 8"),
               ),
               TextButton(
-                onPressed: () {},
+                onPressed: () {
+                  Navigator.push(
+                      context,
+                      MaterialPageRoute(
+                        builder: (context) => page9(),
+                      ));
+                },
                 child: Text("Event 9"),
               ),
               TextButton(
-                onPressed: () {},
+                onPressed: () {
+                  Navigator.push(
+                      context,
+                      MaterialPageRoute(
+                        builder: (context) => page10(),
+                      ));
+                },
                 child: Text("Event 10"),
               ),
               TextButton(
-                onPressed: () {},
+                onPressed: () {
+                  Navigator.push(
+                      context,
+                      MaterialPageRoute(
+                        builder: (context) => page11(),
+                      ));
+                },
                 child: Text("Event 11"),
               ),
               TextButton(
-                onPressed: () {},
+                onPressed: () {
+                  Navigator.push(
+                      context,
+                      MaterialPageRoute(
+                        builder: (context) => page12(),
+                      ));
+                },
                 child: Text("Event 12"),
               ),
               TextButton(
-                onPressed: () {},
+                onPressed: () {
+                  Navigator.push(
+                      context,
+                      MaterialPageRoute(
+                        builder: (context) => page13(),
+                      ));
+                },
                 child: Text("Event 13"),
               ),
               TextButton(

@@ -10,8 +10,8 @@ class page3 extends StatelessWidget {
         child: Scaffold(
           backgroundColor: Colors.teal,
       appBar: AppBar(),
-      body: Container(
-        child: Center(
+      body: Center(
+        child: Container(
           child: Padding(
             padding: const EdgeInsets.all(8.0),
             child: Text(
