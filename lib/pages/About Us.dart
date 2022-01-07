@@ -43,11 +43,11 @@ class _aboutusState extends State<aboutus> {
                 ),
               ),
               Text(
-                "A Trusted Websites & Apps Development Company",
-                style: TextStyle(fontSize: 17,fontWeight: FontWeight.bold, color: Colors.white),
+                "A Trusted Websites & Apps Development Company.",
+                style: TextStyle(fontSize: 15,fontWeight: FontWeight.bold, color: Colors.white),
               ),
               Text(
-                "Cox's Bazar.Bangladesh",
+                "Cox's Bazar. Bangladesh",
                 style: TextStyle(fontSize: 18,fontWeight: FontWeight.bold, color: Colors.white),
               ),
               SizedBox(

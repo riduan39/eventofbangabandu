@@ -38,7 +38,7 @@ class _splashState extends State<splash> {
           mainAxisAlignment: MainAxisAlignment.center,
           children: const [
             Text(
-              "Welcome to Events of Bangabandu",
+              "Welcome to Histories of Bangabandu",
               style: TextStyle(
                   fontSize: 20,
                   fontWeight: FontWeight.bold,
