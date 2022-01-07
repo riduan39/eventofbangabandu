@@ -8,8 +8,10 @@ class page1 extends StatelessWidget {
   Widget build(BuildContext context) {
     return SafeArea(
         child: Scaffold(
-          backgroundColor: Colors.black,
-          appBar: AppBar(),
+          backgroundColor: Colors.teal,
+          appBar: AppBar(
+            backgroundColor: Colors.teal,
+          ),
           body: SingleChildScrollView(
             child: Column(
               children: [

@@ -9,7 +9,9 @@ class page15 extends StatelessWidget {
     return SafeArea(
       child: Scaffold(
         backgroundColor: Colors.teal,
-        appBar: AppBar(),
+        appBar: AppBar(
+          backgroundColor: Colors.teal,
+        ),
         body: SingleChildScrollView(
           child: Column(
             children: [

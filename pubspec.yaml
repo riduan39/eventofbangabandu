@@ -81,7 +81,12 @@ flutter:
     - Assets/p18.jpeg
     - Assets/p19.jpeg
     - Assets/p20.jpeg
-
+    - Assets/p21.jpeg
+    - Assets/p22.jpeg
+    - Assets/p23.jpeg
+    - Assets/p24.jpg
+    - Assets/p25.jpg
+    - Assets/p26.jpeg
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.
 
